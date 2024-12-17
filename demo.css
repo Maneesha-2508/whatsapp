@@ -1,0 +1,136 @@
+
+.containar{
+    height: 90vh;
+    width: 25vw;
+    border: 2px solid black;
+    background-image: url(WhatsApp\ Image\ 2024-12-16\ at\ 11.24.40\ PM.jpeg) ;
+    border-radius: 5px;
+    margin: auto;
+    overflow: scroll;
+    scrollbar-width: none;
+    position: relative;
+    z-index: 4;
+}
+header{
+    background-color: palevioletred;
+    height: 60px;
+    position:sticky;
+    top:0%;
+    width: 100%;
+    z-index: 3;
+   
+   
+}
+.fa-solid {
+    padding-top: 20px;
+    color: white;
+    
+}
+img{
+    height: 35px;
+    position: absolute;
+    left :25px;
+    top:15px ;
+    border: black;
+    border-radius: 20px;
+}
+b{
+    position :absolute;
+    left: 70px;
+    top:25px;
+    color: white;
+}
+.ic{
+    position :absolute;
+    right: 5px;
+    top:8px;
+}
+.ic1{
+    position :absolute;
+    right: 25px;
+    top:8px;
+}
+.ic2{
+    position :absolute;
+    right: 55px;
+    top:8px;
+}
+.date{
+    text-align: center;
+    background-color: pink;
+    height: 20px;
+    width: 80px;
+    border-radius: 5%;
+    position: sticky;
+    top:70px;
+    margin: auto;
+    z-index: 3;
+}
+.chat1{
+    background-color:white ;
+    height: 25px;
+    bottom: 1px solid white;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left:3px ;
+    width: 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.chat2{
+    text-align: center;
+    background-color:white ;
+    height:25px ;
+    width: 30%;
+    border-radius: 4%;
+    margin-right: 3px;
+    
+    position: absolute;
+    right:0%;
+   
+}
+footer{
+    background-color: palevioletred;
+    height: 60px;
+    position:sticky;
+    bottom: 0%;
+    width: 100%;
+    z-index: 4;
+}
+input{
+ width: 80%;
+ border-radius: 5px;
+ margin-top: 13px;
+ height: 30px;
+ margin-right: 2px;
+    
+}
+#mic{
+    text-align: center;
+    background-color: white;
+    color:palevioletred ;
+    width: 10%;
+    border-radius: 15px;
+   padding: 5px;
+}
+#link{
+    position: absolute;
+    right:150px;
+    color:palevioletred  ;
+}
+#rs{
+    position: absolute;
+    right:120px;
+    color:palevioletred  ;
+}
+#cam{
+    position: absolute;
+    right:87px;
+    color:palevioletred  ;
+}
+#face{
+    position: absolute;
+    left:8px;
+    color:palevioletred  ;
+    margin-top: 2px;
+}
